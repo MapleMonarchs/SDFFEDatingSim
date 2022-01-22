@@ -357,7 +357,7 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add gui.main_menu_background
+    add Movie(play="gui/MM_Back.webm")
 
     ## This empty frame darkens the main menu.
     frame:
