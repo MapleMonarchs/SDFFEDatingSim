@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 40, in script call
+    call day_two
+  File "game/tag2.rpy", line 73, in script
+    f "Befürchten?"
+Exception: Sayer 'f' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 40, in script call
+    call day_two
+  File "game/tag2.rpy", line 73, in script
+    f "Befürchten?"
+  File "/home/max/Downloads/renpy-7.4.4-sdk/renpy/ast.py", line 680, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/max/Downloads/renpy-7.4.4-sdk/renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'f' is not defined.
+
+Linux-5.4.0-73-generic-x86_64-with-debian-bullseye-sid
+Ren'Py 7.4.4.1439
+SDFFE_Playground 1.0
+Fri May 21 20:20:55 2021

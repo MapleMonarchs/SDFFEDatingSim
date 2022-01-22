@@ -1,0 +1,1 @@
+{"layout": null, "orientation": "sensorLandscape", "package": "random.turtle.sdffe.dating", "include_pil": false, "expansion": false, "name": "SDFFE-Dating-Sim", "update_always": true, "source": false, "icon_name": "SDFFE", "version": "0.2", "update_icons": true, "permissions": ["VIBRATE"], "numeric_version": "2", "include_sqlite": false, "store": "none"}
