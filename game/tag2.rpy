@@ -3,6 +3,9 @@
     #Jedenfalls, weiter im Script
 
 label day_two:
+
+    scene "backs/room_tmp.png"
+
     "Warmes Licht fällt in mein Gesicht."
     "Das leichte Vogelgezwitscher trägt mich sanft aus dem Schlaf."
     "Ich liege bequem umgeben von weichen Kissen und Decken."
