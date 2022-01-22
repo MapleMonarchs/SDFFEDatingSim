@@ -217,9 +217,9 @@ label day_one:
     "Zu meiner Enttäuschung ist die Halle fast noch seltsamer als der Garten."
     "… Ist das ein Baum im Gang?"
     d "Willkommen in unseren bescheidenen Zuhause."
-    "Ich drehe mich zu Duden."
+    "Ich drehe mich zu Duden.s"
     
-    show duden_half at left
+    show rsz_duden_half at left
 
     "Mir ist nichtmal aufgefallen, dass der Doktor weiblich ist."
     "Wow."
