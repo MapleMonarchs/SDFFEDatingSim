@@ -4,7 +4,7 @@
 
 label day_two:
 
-    scene "backs/room_tmp.png"
+    scene room_tmp
 
     "Warmes Licht fällt in mein Gesicht."
     "Das leichte Vogelgezwitscher trägt mich sanft aus dem Schlaf."

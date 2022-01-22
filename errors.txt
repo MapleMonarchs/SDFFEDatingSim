@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/tag1.rpy", line 222: end of line expected.
-    show duden at ypos 700
-                       ^
+File "game/tag2.rpy", line 7: expected 'image_name_component' not found.
+    scene "backs/room_tmp.png"
+          ^
 
-Ren'Py Version: Ren'Py 7.4.4.1439
-Fri May 21 23:13:43 2021
+Ren'Py Version: Ren'Py 7.4.11.2266
+Sat Jan 22 23:37:27 2022
