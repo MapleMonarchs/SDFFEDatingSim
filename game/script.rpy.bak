@@ -37,7 +37,7 @@ label start:
 
     call day_one from _call_day_one
 
-    call day_two from _call_day_two
+    call day_two
         
 
     #  d_names[0] = d_names[1] ---> um den Namen dann zu ändern
