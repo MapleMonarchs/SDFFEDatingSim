@@ -34,8 +34,10 @@ label day_two:
     " Ich hoffe, dass \"die Anderen\”, {w}wer auch immer sie sind,{w} wenigstens so freundlich sind wie diese ominöse Duden."
     if vani == True:
         "Ich hoffe auch, dass ich diese Vani, so gut es geht, vermeiden kann."
-        "Ich verlasse das Zimmer und gehe zurück zu der Eingangshalle."
+        "Ich öffne die Tür und verlasse das Zimmer."
     #transition with slow fade in
+
+    scene hallway_tmp
 
     "Ich bin… überrascht."
     "Da stehen mehrere Personen."
@@ -68,16 +70,25 @@ label day_two:
             "Äh, was jetzt..?"
             "Ich habe tatsächlich nicht weiter über die Konsequenzen meines Verhaltens nachgedacht."   #r/me_irl #Duden verliert die Fassung Klappe 2 #Och nö
             "Duden geht zu mir, {p} und zieht amüsiert eine Augenbraue hoch."
+
+            show rsz_duden_half at left
+
             d "Du nimmst vermutlich nichts von dem Ganzen hier ernst, {w} oder?"
             "Ich schüttele den Kopf."
             "Ein Schweigen macht die Runde."
             "Duden grinst schließlich, {w} und reckt ihren Daumen in die Höhe."
             d "Gut. Das ist die richtige Einstellung in diesem Haus, befürchte ich."
+
+            show fake_tmp at right
+
             f "Befürchten?"
             f "Ich bitte dich, Duden, du bist mindestens genauso schrecklich wie alle anderen auch."
             f "Schlimmer noch, dir scheint es sogar zu {i}gefallen{/i}."
             d "Verzeihung?"
             "Die gehörnte Person nickt zustimmend."
+
+            show vani_tmp at center
+
             v "{i} Du{/i} machst sogar fast noch schlimmere Wortwitze als ich."
             v "...Aber nur fast."
             d "Ihr gebt unserem Gast ein vollkommen falsches Bild von mir!"
@@ -88,10 +99,14 @@ label day_two:
 
 
 
+    show rsz_duden_half at left
 
     d "...Das wäre dann der Besuch, von dem ich gesprochen hatte."
     d "Der Name ist [name], {w} falls sich einer von euch gefragt hatte."
     "Erst jetzt fallen mir die anderen Personen auf."
     "Sie sehen fast so absurd aus wie Duden."
+
+    show vani_tmp at center
+
     v "...Duden, keiner hat gefragt."
     "Skeptisch werde ich von ihren roten Augen betrachtet."
